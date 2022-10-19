@@ -5,70 +5,47 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="index.css">
+  <title>Bons.ai</title>
+  <link rel="stylesheet" href="css/index.css">
+
 </head>
+<html>
 
 <body>
 
-  <form>
-    <div class="form-container">
-      <!-- <br/>-tag är för att bryta rad -->
-      <div class="input-container">
-        <label for="text-input">Ett textfält</label>
-        <input id="text-input" name="text" type="text" placeholder="Fyll i din text här" />
+  <div class="wrapper">
+
+    <header class="generic-header"></header>
+
+    <img class="poster" src="assets/poster/poster.jpg" alt="logo">
+
+    <main>
+
+      <img>
+      <div class="information">
+        <h1>Bonz.AI - AI driven eco hotel</h1>
+        <p>Här möts natur, hållbarhet, komfort och modern design i ett spännande äventyr för alla åldrar. Låt oss ta
+          hand om dig
+          och se till att du glömmer stress och alla måsten i vardagen.</p>
       </div>
 
-      <div class="input-container">
-        <label for="email">E-post</label>
-        <input id="email" type="email" name="email" placeholder="Ange din e-post" />
+      <div class="nine-grid">
+        <img src="assets/photos/01-day.jpg" alt="">
+        <img src="assets/photos/01-night.jpg" alt="">
+        <img src="assets/photos/01-day.jpg" alt="">
+        <img src="assets/photos/01-night.jpg" alt="">
+        <img src="assets/photos/01-day.jpg" alt="">
+        <img src="assets/photos/01-night.jpg" alt="">
+        <img src="assets/photos/01-day.jpg" alt="">
+        <img src="assets/photos/01-night.jpg" alt="">
+        <img src="assets/photos/01-day.jpg" alt="">
       </div>
+    </main>
 
-      <div class="input-container">
-        <label for="date-from">Från datum</label>
-        <input id="date-from" type="date" name="date-from" />
-      </div>
+    <footer class="generic-footer"></footer>
+    <script src="js/script.js" crossorigin="anonymous"></script>
 
-      <div class="input-container">
-        <label for="date-to">Till datum</label>
-        <input id="date-to" type="date" name="date-to" />
-      </div>
-
-      <div class="input-container-grid">
-
-        <!-- Rad 1 -->
-        <div class="input-container">
-          <label for="date-from">Från datum</label>
-          <input id="date-from" type="date" name="date-from" />
-        </div>
-
-        <div class="input-container">
-          <label for="date-to">Till datum</label>
-          <input id="date-to" type="date" name="date-to" />
-        </div>
-
-        <div class="input-container">
-          <label for="email">E-post</label>
-          <input id="email" type="email" name="email" placeholder="Ange din e-post" />
-        </div>
-        <!-- Rad 2 -->
-        <div class="input-container input-container-row">
-          <input id="email-notif" type="checkbox" name="cb-email-notif" />
-          <label for="email-notifications">Checkbox</label>
-        </div>
-
-      </div>
-
-      <div class="input-container">
-        <label for="password">Ange lösenord</label>
-        <input id="password" type="password" maxlength="10" />
-      </div>
-
-      <input type="submit">
-    </div>
-
-    </div>
-  </form>
+  </div>
 
 </body>
 
